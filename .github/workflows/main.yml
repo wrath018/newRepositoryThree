@@ -2,7 +2,7 @@ name: Salesforce Deploy
 on: 
   push:
     branches:
-      - MainBranch ⇒⇒⇒ “Your Branch Name”
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
