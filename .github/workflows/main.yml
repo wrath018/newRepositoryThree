@@ -20,7 +20,7 @@ jobs:
       - name: Convert source to Metadata API format
         run: |
          mkdir unpackaged
-         mv force-app/main/default unpackaged
+         mv /jwtInfo/force-app/main/default unpackaged
          sfdx force:source:convert -r unpackaged -d mdapi_output_dir --loglevel debug
          rm -rf unpackaged
                
